@@ -1,0 +1,35 @@
+@import url(./reset.css);
+
+@font-face {
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/Pretendard-Regular.otf') format('opentype'),
+        url('../fonts/Pretendard-Regular.ttf') format('truetype'),
+        url('../fonts/Pretendard-Regular.woff') format('woff'),
+        url('../fonts/Pretendard-Regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    font-style: medium;
+    font-weight: medium;
+    src: url('../fonts/Pretendard-Medium.otf') format('opentype'),
+        url('../fonts/Pretendard-Medium.ttf') format('truetype'),
+        url('../fonts/Pretendard-Medium.woff') format('woff'),
+        url('../fonts/Pretendard-Medium.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    font-style: bold;
+    font-weight: bold;
+    src: url('../fonts/Pretendard-Bold.otf') format('opentype'),
+        url('../fonts/Pretendard-Bold.ttf') format('truetype'),
+        url('../fonts/Pretendard-Bold.woff') format('woff'),
+        url('../fonts/Pretendard-Bold.woff2') format('woff2');
+}
+
+body {
+    font-family: 'Pretendard';
+}
